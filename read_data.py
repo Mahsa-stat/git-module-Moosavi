@@ -11,6 +11,7 @@ def read_and_visualize():
     print(count_col)
     print("Total rows:", count_row)
     print("Total columns:", count_col)
+
     plt.plot(df["AAPL_x"], df["AAPL_y"], label="Stock Prices")
     plt.savefig("apple_stock.png")
     plt.close()
@@ -29,8 +30,6 @@ def calculate_moving_average(df, window_size=30):
 df = read_and_visualize()
 df = calculate_moving_average(df, window_size=30)
 
-
-    
 
     
     
