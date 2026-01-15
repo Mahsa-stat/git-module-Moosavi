@@ -13,7 +13,6 @@ def read_and_visualize():
     print("Total columns:", count_col)
     plt.plot(Apple_Inc['AAPL_x'], Apple_Inc['AAPL_y'])
     plt.savefig('apple_stock.png')
-    plt.close()
     return Apple_Inc
 
     
