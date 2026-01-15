@@ -26,8 +26,8 @@ def calculate_moving_average(df, window_size=30):
     
     return df
 
-#df = read_and_visualize()
-#df = calculate_moving_average(df, window_size=30)
+df = read_and_visualize()
+df = calculate_moving_average(df, window_size=30)
 
 
     
